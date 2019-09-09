@@ -123,7 +123,7 @@ public class GamePlayController : MonoBehaviour
         print("quitting through ads panel");
         Time.timeScale = 1.0f;
         showAddPanel(false);
-        StartCoroutine(CustomCouritine.waitForSpecificSeconds(2f));
+        StartCoroutine(CustomCouritine.waitForSpecificSeconds(2f));  
         GamePlayController.instance.GameOverShowPanel(PlayerScore.scoreCount, PlayerScore.coinCount);
         
     }
