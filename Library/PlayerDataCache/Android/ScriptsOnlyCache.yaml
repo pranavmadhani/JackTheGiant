@@ -17,6 +17,8 @@ ScriptsOnlyBuild:
     - Player
     - PlayerJoystick
     - PlayerScore
+    - PushNotifications
+    - UnityAdsBanner
     - UnityAdsButton
     - collectables
     - joystick
@@ -63,21 +65,21 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 9438}
+      Script: {instanceID: 9286}
     - Class: 114
-      Script: {instanceID: 9580}
+      Script: {instanceID: 9400}
     - Class: 114
-      Script: {instanceID: 9582}
+      Script: {instanceID: 9402}
     - Class: 114
-      Script: {instanceID: 9588}
+      Script: {instanceID: 9408}
     - Class: 114
-      Script: {instanceID: 9594}
+      Script: {instanceID: 9414}
     - Class: 114
-      Script: {instanceID: 9602}
+      Script: {instanceID: 9422}
     - Class: 114
-      Script: {instanceID: 9638}
+      Script: {instanceID: 9458}
     - Class: 114
-      Script: {instanceID: 9640}
+      Script: {instanceID: 9460}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -126,49 +128,49 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 9580}
+      Script: {instanceID: 9400}
     - Class: 114
-      Script: {instanceID: 9582}
+      Script: {instanceID: 9402}
     - Class: 114
-      Script: {instanceID: 9588}
+      Script: {instanceID: 9408}
     - Class: 114
-      Script: {instanceID: 9590}
+      Script: {instanceID: 9410}
     - Class: 114
-      Script: {instanceID: 9594}
+      Script: {instanceID: 9414}
     - Class: 114
-      Script: {instanceID: 9602}
+      Script: {instanceID: 9422}
     - Class: 114
-      Script: {instanceID: 9638}
+      Script: {instanceID: 9458}
     - Class: 114
-      Script: {instanceID: 9640}
+      Script: {instanceID: 9460}
     - Class: 114
-      Script: {instanceID: 9998}
+      Script: {instanceID: 9772}
     - Class: 114
-      Script: {instanceID: 10054}
+      Script: {instanceID: 9810}
     - Class: 114
-      Script: {instanceID: 10136}
+      Script: {instanceID: 9870}
     - Class: 114
-      Script: {instanceID: 10206}
+      Script: {instanceID: 9926}
     - Class: 114
-      Script: {instanceID: 10272}
+      Script: {instanceID: 9970}
     - Class: 114
-      Script: {instanceID: 10322}
+      Script: {instanceID: 10008}
     - Class: 114
-      Script: {instanceID: 10384}
+      Script: {instanceID: 10050}
+    - Class: 114
+      Script: {instanceID: 10190}
+    - Class: 114
+      Script: {instanceID: 10306}
+    - Class: 114
+      Script: {instanceID: 10532}
+    - Class: 114
+      Script: {instanceID: 10538}
     - Class: 114
       Script: {instanceID: 10558}
     - Class: 114
-      Script: {instanceID: 10688}
+      Script: {instanceID: 10566}
     - Class: 114
-      Script: {instanceID: 10952}
-    - Class: 114
-      Script: {instanceID: 10958}
-    - Class: 114
-      Script: {instanceID: 10984}
-    - Class: 114
-      Script: {instanceID: 10996}
-    - Class: 114
-      Script: {instanceID: 11004}
+      Script: {instanceID: 10572}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -209,27 +211,33 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 9580}
+      Script: {instanceID: 614}
     - Class: 114
-      Script: {instanceID: 9582}
+      Script: {instanceID: 9400}
     - Class: 114
-      Script: {instanceID: 9588}
+      Script: {instanceID: 9402}
     - Class: 114
-      Script: {instanceID: 9594}
+      Script: {instanceID: 9408}
     - Class: 114
-      Script: {instanceID: 9602}
+      Script: {instanceID: 9414}
     - Class: 114
-      Script: {instanceID: 9638}
+      Script: {instanceID: 9422}
     - Class: 114
-      Script: {instanceID: 9688}
+      Script: {instanceID: 9458}
     - Class: 114
-      Script: {instanceID: 10246}
+      Script: {instanceID: 9496}
     - Class: 114
-      Script: {instanceID: 10272}
+      Script: {instanceID: 9952}
     - Class: 114
-      Script: {instanceID: 10764}
+      Script: {instanceID: 9970}
     - Class: 114
-      Script: {instanceID: 10772}
+      Script: {instanceID: 10376}
+    - Class: 114
+      Script: {instanceID: 10384}
+    - Class: 114
+      Script: {instanceID: 17392}
+    - Class: 114
+      Script: {instanceID: 41400}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -256,19 +264,19 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 9580}
+      Script: {instanceID: 9400}
     - Class: 114
-      Script: {instanceID: 9582}
+      Script: {instanceID: 9402}
     - Class: 114
-      Script: {instanceID: 9588}
+      Script: {instanceID: 9408}
     - Class: 114
-      Script: {instanceID: 9594}
+      Script: {instanceID: 9414}
     - Class: 114
-      Script: {instanceID: 9602}
+      Script: {instanceID: 9422}
     - Class: 114
-      Script: {instanceID: 9638}
+      Script: {instanceID: 9458}
     - Class: 114
-      Script: {instanceID: 10916}
+      Script: {instanceID: 10508}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -1062,6 +1070,24 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Player
+  - hash:
+      serializedVersion: 2
+      Hash: e17204a946e8ba91e69421b3703917af
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: UnityAdsBanner
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Firebase.Platform.dll
+    namespaceName: Firebase.Platform
+    className: FirebaseMonoBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PushNotifications
   platform: 13
   scenePathNames:
   - Assets/Scenes/menu.unity

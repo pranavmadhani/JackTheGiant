@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "358242174968",
+    "firebase_url": "https://jack-the-giant-b1f9e.firebaseio.com",
+    "project_id": "jack-the-giant-b1f9e",
+    "storage_bucket": "jack-the-giant-b1f9e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:358242174968:android:b3efd8854193aed7f2380d",
+        "android_client_info": {
+          "package_name": "com.games.jackthegiant"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "358242174968-lrpob3hb4c95p3l243evm30heh6milcr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKx_vqrJApnKNSM-fI6iSRYnSSkSHkijY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "358242174968-lrpob3hb4c95p3l243evm30heh6milcr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -76,16 +76,20 @@
     <Compile Include="Assets\Scripts\game controllers\MainMenu.cs" />
     <Compile Include="Assets\Scripts\game controllers\MusicController.cs" />
     <Compile Include="Assets\Scripts\game controllers\Options.cs" />
+    <Compile Include="Assets\Scripts\game controllers\UnityAdsBanner.cs" />
     <Compile Include="Assets\Scripts\game controllers\UnityAdsButton.cs" />
     <Compile Include="Assets\Scripts\joystick\joystick.cs" />
+    <Compile Include="Assets\Scripts\Notifications\PushNotifications.cs" />
     <Compile Include="Assets\Scripts\player scripts\Bounds.cs" />
     <Compile Include="Assets\Scripts\player scripts\Player.cs" />
     <Compile Include="Assets\Scripts\player scripts\PlayerJoystick.cs" />
     <Compile Include="Assets\Scripts\player scripts\PlayerScore.cs" />
     <Compile Include="Assets\Scripts\preferences\prefs.cs" />
     <Compile Include="Assets\Scripts\Scene Fader\scenefader.cs" />
+    <None Include="Assets\Firebase\m2repository\com\google\firebase\firebase-app-unity\maven-metadata.xml" />
     <None Include="Assets\Font\readme.txt" />
     <None Include="Assets\UnityAds\link.xml" />
+    <None Include="Assets\Firebase\m2repository\com\google\firebase\firebase-messaging-unity\maven-metadata.xml" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Users/Pranav Madhani/Desktop/Introduction-to-using-OpenCV-with-Unity/Jack The Giant - Game/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
@@ -295,6 +299,27 @@
     </Reference>
     <Reference Include="Unity.Analytics.Tracker">
       <HintPath>C:/Users/Pranav Madhani/Desktop/Introduction-to-using-OpenCV-with-Unity/Jack The Giant - Game/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Tracker.dll</HintPath>
+    </Reference>
+    <Reference Include="Firebase.App">
+      <HintPath>C:/Users/Pranav Madhani/Desktop/Introduction-to-using-OpenCV-with-Unity/Jack The Giant - Game/Assets/Firebase/Plugins/Firebase.App.dll</HintPath>
+    </Reference>
+    <Reference Include="Firebase.Platform">
+      <HintPath>C:/Users/Pranav Madhani/Desktop/Introduction-to-using-OpenCV-with-Unity/Jack The Giant - Game/Assets/Firebase/Plugins/Firebase.Platform.dll</HintPath>
+    </Reference>
+    <Reference Include="Firebase.Messaging">
+      <HintPath>C:/Users/Pranav Madhani/Desktop/Introduction-to-using-OpenCV-with-Unity/Jack The Giant - Game/Assets/Firebase/Plugins/Firebase.Messaging.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Tasks">
+      <HintPath>C:/Users/Pranav Madhani/Desktop/Introduction-to-using-OpenCV-with-Unity/Jack The Giant - Game/Assets/Parse/Plugins/dotNet45/Unity.Tasks.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.MiniJson">
+      <HintPath>C:/Users/Pranav Madhani/Desktop/Introduction-to-using-OpenCV-with-Unity/Jack The Giant - Game/Assets/Firebase/Plugins/Google.MiniJson.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Compat">
+      <HintPath>C:/Users/Pranav Madhani/Desktop/Introduction-to-using-OpenCV-with-Unity/Jack The Giant - Game/Assets/Parse/Plugins/dotNet45/Unity.Compat.dll</HintPath>
+    </Reference>
+    <Reference Include="Firebase.TaskExtension">
+      <HintPath>C:/Users/Pranav Madhani/Desktop/Introduction-to-using-OpenCV-with-Unity/Jack The Giant - Game/Assets/Firebase/Plugins/Firebase.TaskExtension.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.1.14f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>

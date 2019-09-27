@@ -265,7 +265,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84ec7db85a8be3142af92c11e84b7f0f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  placementId: rewardedVideo
+  placementIdOfRewardVideo: rewardedVideo
 --- !u!1 &149522081
 GameObject:
   m_ObjectHideFlags: 0
@@ -276,6 +276,7 @@ GameObject:
   m_Component:
   - component: {fileID: 149522083}
   - component: {fileID: 149522082}
+  - component: {fileID: 149522084}
   m_Layer: 0
   m_Name: MainMenuController
   m_TagString: Untagged
@@ -313,6 +314,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &149522084
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 149522081}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6954ed79b93e0640b35dc722b60fef2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &177808734
 GameObject:
   m_ObjectHideFlags: 0
@@ -1063,7 +1076,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84ec7db85a8be3142af92c11e84b7f0f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  placementId: rewardedVideo
+  placementIdOfRewardVideo: rewardedVideo
 --- !u!114 &837301500
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1906,3 +1919,47 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1831158203}
   m_CullTransparentMesh: 0
+--- !u!1 &2015689116
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2015689118}
+  - component: {fileID: 2015689117}
+  m_Layer: 0
+  m_Name: Ads Controller
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2015689117
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2015689116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b518650898f672446a7f2cc602ba86e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  placementId: InAddBanner
+--- !u!4 &2015689118
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2015689116}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.00000059604645, y: -2.077778, z: 90}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

@@ -34,20 +34,20 @@ public class GameManager : MonoBehaviour
     void Start() {
 
         initializeVariables();
-        StartCoroutine(ShowBannerWhenReady());
+      //  StartCoroutine(ShowBannerWhenReady());
        
 
     }
 
-    IEnumerator ShowBannerWhenReady()
-    {
-        while (!Advertisement.IsReady(placementId))
-        {
-            yield return new WaitWhile(() => Advertisement.IsReady(placementId));
-        }
-      //  Advertisement.Banner.SetPosition(BannerPosition.TOP_CENTER);
-        Advertisement.Banner.Show(placementId);
-    }
+    //IEnumerator ShowBannerWhenReady()
+    //{
+    //    while (!Advertisement.IsReady(placementId))
+    //    {
+    //        yield return new WaitWhile(() => Advertisement.IsReady(placementId));
+    //    }
+    //  //  Advertisement.Banner.SetPosition(BannerPosition.TOP_CENTER);
+    //    Advertisement.Banner.Show(placementId);
+    //}
 
     void initializeVariables()
     {
@@ -129,11 +129,11 @@ public class GameManager : MonoBehaviour
                 print("game started from main menu");
                 PlayerScore.scoreCount = 0;
                 PlayerScore.coinCount = 0;
-                PlayerScore.lifeCount = 0;
+                PlayerScore.lifeCount = 2;
 
                 GamePlayController.instance.setScore(0);
                 GamePlayController.instance.setCoinScore(0);
-                GamePlayController.instance.setLifeScore(0);
+                GamePlayController.instance.setLifeScore(2);
 
 
 
